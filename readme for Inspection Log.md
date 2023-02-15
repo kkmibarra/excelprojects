@@ -5,4 +5,4 @@ would indicate how long a part is waiting before someone starts inspection. Once
 would stop and the timer next to that field would start. This indicates the person has started to inspect the part. QA can accept or reject, depending on the
 option chosen, they would have to fill out more other purple fields before the inspection timer stops. i.e. part is rejected, fill out why, defect code, etc.
 Once you scroll to the end, you can see the time inspection started, the time it was done with QA, the total time in QA, and the actual time that we used to
-count (the code removed certain times of the day to account for when people weren't working. Conditional formatting is added to timers so people can see, at a glance, if a part is taking more than 1 day to inspect.
+count (the code removed certain times of the day to account for when people weren't working. Conditional formatting is added to timers so people can see, at a glance, if a part is taking more than 1 day to inspect denoted by red, orange for times in between 6 hours and 24 hours, and green for zero hours to 6 hours.
